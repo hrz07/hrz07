@@ -160,14 +160,12 @@ Z.H. Sikder University of Science and Technology
 
 <div align="center">
 
-<img height="165" alt="stats" src="https://github-readme-stats.vercel.app/api?username=hrz07&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" />
-<img height="165" alt="streak" src="https://streak-stats.demolab.com?user=hrz07&hide_border=true&theme=tokyonight&background=0d1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
+<img height="180" alt="streak" src="https://streak-stats.demolab.com?user=hrz07&hide_border=true&theme=tokyonight&background=0d1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
+<img height="180" alt="top languages" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=hrz07&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=38BDF8&text_color=c9d1d9" />
 
-<img height="150" alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrz07&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=38BDF8&text_color=c9d1d9" />
+<img width="94%" alt="activity graph" src="https://github-readme-activity-graph-two.vercel.app/graph?username=hrz07&bg_color=0d1117&color=38BDF8&line=38BDF8&point=ffffff&area=true&hide_border=true" />
 
-<img width="94%" alt="activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=hrz07&bg_color=0d1117&color=38BDF8&line=38BDF8&point=ffffff&area=true&hide_border=true" />
-
-<img width="94%" alt="trophies" src="https://github-profile-trophy.vercel.app/?username=hrz07&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+<img width="94%" alt="trophies" src="https://github-trophies.vercel.app/?username=hrz07&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
 
 </div>
 
