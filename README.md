@@ -160,8 +160,6 @@ Z.H. Sikder University of Science and Technology
 
 <div align="center">
 
-<img alt="terminal" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=800&color=38BDF8&center=true&vCenter=true&width=720&height=36&lines=~+%24+git+log+--author%3Dhrz07+--oneline+%7C+wc+-l;551+commits+and+counting...;~+%24+tokei+.+--sort+lines;JavaScript+%C2%B7+TypeScript+%C2%B7+CSS+%C2%B7+HTML" />
-
 <img height="180" alt="streak" src="https://streak-stats.demolab.com?user=hrz07&hide_border=true&theme=tokyonight&background=0d1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
 <img height="180" alt="top languages" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=hrz07&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=38BDF8&text_color=c9d1d9" />
 
