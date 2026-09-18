@@ -221,9 +221,6 @@ Z.H. Sikder University of Science and Technology
 <a href="https://github.com/selisehridoy">
   <img alt="Work GitHub" src="https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="tel:+8801866061128">
-  <img alt="Phone" src="https://img.shields.io/badge/+880_1866061128-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</a>
 
 <br /><br />
 
