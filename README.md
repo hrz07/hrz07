@@ -19,44 +19,6 @@
 
 <br />
 
-## `hridoy@github ~ $ neofetch`
-
-```ansi
-[96m  ██╗  ██╗██████╗ ███████╗ ██████╗ ███████╗[0m
-[96m  ██║  ██║██╔══██╗╚══███╔╝██╔═████╗╚════██║[0m
-[96m  ███████║██████╔╝  ███╔╝ ██║██╔██║    ██╔╝[0m
-[96m  ██╔══██║██╔══██╗ ███╔╝  ████╔╝██║   ██╔╝ [0m
-[96m  ██║  ██║██║  ██║███████╗╚██████╔╝   ██║  [0m
-[96m  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝    ╚═╝  [0m
-
-[96mhridoy[0m@[95mgithub[0m
-[90m──────────────────────────────────────────────────────────[0m
-[96mOS        [0m: Human — Dhaka, Bangladesh · UTC+6
-[96mHost      [0m: SELISE Digital Platforms
-[96mKernel    [0m: software-engineer 3.1.0-stable
-[96mUptime    [0m: 3+ years shipping production frontends
-[96mShell     [0m: react + typescript
-[96mDE        [0m: Tailwind CSS · Material UI · shadcn/ui
-[96mWM        [0m: TanStack Query + Zustand
-[96mTerminal  [0m: Cursor · Antigravity · OpenCode
-[96mPackages  [0m: 4 products shipped, 1 Angular→React migration
-[96mCPU       [0m: component-architecture @ 4.2GHz (8 cores)
-[96mGPU       [0m: render-performance — certified re-render slayer
-[96mMemory    [0m: Angular · RxJS · Node.js · NestJS · GraphQL
-[96mNetwork   [0m: design ↔ backend ↔ LLM teams
-[96mDisk      [0m: 4,000 useless re-renders freed
-
-[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [0m
-[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [0m
-```
-
-> [!NOTE]
-> I like the unglamorous parts of frontend — the migration nobody wants to own, the list that
-> re-renders 4,000 times, the component API that four teams have to live with. Lately I spend a lot
-> of time making AI agents genuinely useful in a real codebase instead of just impressive in a demo.
-
-<br />
-
 ## 🧰 Tech Arsenal
 
 <table>
