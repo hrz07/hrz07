@@ -19,29 +19,59 @@
 
 <br />
 
-## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="28" /> whoami
+## `~ $ whoami`
+
+<img width="100%" height="3" alt="" src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:38BDF8,100:0f2027&height=3&section=header" />
 
 ```ts
-const hridoy: SoftwareEngineer = {
-  role: "Software Engineer @ SELISE Digital Platforms",
-  based: "Dhaka, Bangladesh 🇧🇩",
-  experience: "3+ years shipping production frontends",
+import { ship } from "@hridoy/engineering";
 
-  currently: [
-    "Migrating a large Angular product to React + TypeScript",
-    "Building AI chat interfaces that stream at scale",
-    "Reviewing & hardening AI-generated code before it merges",
+type Engineer = Readonly<{
+  identity: Record<string, string>;
+  stack: Record<string, string[]>;
+  nowRunning: string[];
+  obsessions: string[];
+}>;
+
+export const hridoy = {
+  identity: {
+    name: "Rashedul Islam Hridoy",
+    role: "Software Engineer @ SELISE Digital Platforms",
+    based: "Dhaka, Bangladesh 🇧🇩 — UTC+6",
+    since: "3+ years shipping production frontends",
+  },
+
+  stack: {
+    daily:      ["React", "TypeScript", "TanStack Query", "Zustand"],
+    styling:    ["Tailwind CSS", "Material UI", "shadcn/ui"],
+    alsoSpeaks: ["Angular", "RxJS", "Node.js", "NestJS", "GraphQL"],
+  },
+
+  nowRunning: [
+    "🔄  Migrating a large Angular product → React + TypeScript",
+    "🌊  Building AI chat UIs that stay smooth under heavy streaming",
+    "🧪  Reviewing & hardening AI-generated code before it merges",
   ],
 
-  caresAbout: ["component architecture", "state management", "render performance", "DX"],
-  workingStyle: "design ↔ backend ↔ LLM teams, in the same room",
-  askMeAbout: ["React internals", "TanStack Query", "Zustand", "agentic workflows"],
-};
+  obsessions: ["component architecture", "render performance", "state that scales", "DX"],
+} satisfies Engineer;
+
+// side effects: shipped features, fewer re-renders, happier reviewers
+await ship(hridoy);
 ```
 
+> [!NOTE]
 > I like the unglamorous parts of frontend — the migration nobody wants to own, the list that
 > re-renders 4,000 times, the component API that four teams have to live with. Lately I spend a lot
-> of time making AI agents useful in a real codebase instead of just impressive in a demo.
+> of time making AI agents genuinely useful in a real codebase instead of just impressive in a demo.
+
+<div align="center">
+
+<img alt="open to collaborating" src="https://img.shields.io/badge/%E2%9C%A6-open%20to%20collaborating-0d1117?style=flat-square&labelColor=0d1117&color=38BDF8" />
+<img alt="ask me about" src="https://img.shields.io/badge/ask%20me%20about-React%20internals%20%C2%B7%20TanStack%20Query%20%C2%B7%20agentic%20workflows-0d1117?style=flat-square&labelColor=0d1117&color=203a43" />
+<img alt="fuelled by" src="https://img.shields.io/badge/%E2%98%95-cha%20%E2%86%92%20components-0d1117?style=flat-square&labelColor=0d1117&color=2c5364" />
+
+</div>
 
 <br />
 
