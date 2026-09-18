@@ -19,59 +19,41 @@
 
 <br />
 
-## `~ $ whoami`
+## `hridoy@github ~ $ neofetch`
 
-<img width="100%" height="3" alt="" src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:38BDF8,100:0f2027&height=3&section=header" />
+```ansi
+[96m  ██╗  ██╗██████╗ ███████╗ ██████╗ ███████╗[0m
+[96m  ██║  ██║██╔══██╗╚══███╔╝██╔═████╗╚════██║[0m
+[96m  ███████║██████╔╝  ███╔╝ ██║██╔██║    ██╔╝[0m
+[96m  ██╔══██║██╔══██╗ ███╔╝  ████╔╝██║   ██╔╝ [0m
+[96m  ██║  ██║██║  ██║███████╗╚██████╔╝   ██║  [0m
+[96m  ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝    ╚═╝  [0m
 
-```ts
-import { ship } from "@hridoy/engineering";
+[96mhridoy[0m@[95mgithub[0m
+[90m──────────────────────────────────────────────────────────[0m
+[96mOS        [0m: Human — Dhaka, Bangladesh · UTC+6
+[96mHost      [0m: SELISE Digital Platforms
+[96mKernel    [0m: software-engineer 3.1.0-stable
+[96mUptime    [0m: 3+ years shipping production frontends
+[96mShell     [0m: react + typescript
+[96mDE        [0m: Tailwind CSS · Material UI · shadcn/ui
+[96mWM        [0m: TanStack Query + Zustand
+[96mTerminal  [0m: Cursor · Antigravity · OpenCode
+[96mPackages  [0m: 4 products shipped, 1 Angular→React migration
+[96mCPU       [0m: component-architecture @ 4.2GHz (8 cores)
+[96mGPU       [0m: render-performance — certified re-render slayer
+[96mMemory    [0m: Angular · RxJS · Node.js · NestJS · GraphQL
+[96mNetwork   [0m: design ↔ backend ↔ LLM teams
+[96mDisk      [0m: 4,000 useless re-renders freed
 
-type Engineer = Readonly<{
-  identity: Record<string, string>;
-  stack: Record<string, string[]>;
-  nowRunning: string[];
-  obsessions: string[];
-}>;
-
-export const hridoy = {
-  identity: {
-    name: "Rashedul Islam Hridoy",
-    role: "Software Engineer @ SELISE Digital Platforms",
-    based: "Dhaka, Bangladesh 🇧🇩 — UTC+6",
-    since: "3+ years shipping production frontends",
-  },
-
-  stack: {
-    daily:      ["React", "TypeScript", "TanStack Query", "Zustand"],
-    styling:    ["Tailwind CSS", "Material UI", "shadcn/ui"],
-    alsoSpeaks: ["Angular", "RxJS", "Node.js", "NestJS", "GraphQL"],
-  },
-
-  nowRunning: [
-    "🔄  Migrating a large Angular product → React + TypeScript",
-    "🌊  Building AI chat UIs that stay smooth under heavy streaming",
-    "🧪  Reviewing & hardening AI-generated code before it merges",
-  ],
-
-  obsessions: ["component architecture", "render performance", "state that scales", "DX"],
-} satisfies Engineer;
-
-// side effects: shipped features, fewer re-renders, happier reviewers
-await ship(hridoy);
+[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [0m
+[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [0m
 ```
 
 > [!NOTE]
 > I like the unglamorous parts of frontend — the migration nobody wants to own, the list that
 > re-renders 4,000 times, the component API that four teams have to live with. Lately I spend a lot
 > of time making AI agents genuinely useful in a real codebase instead of just impressive in a demo.
-
-<div align="center">
-
-<img alt="open to collaborating" src="https://img.shields.io/badge/%E2%9C%A6-open%20to%20collaborating-0d1117?style=flat-square&labelColor=0d1117&color=38BDF8" />
-<img alt="ask me about" src="https://img.shields.io/badge/ask%20me%20about-React%20internals%20%C2%B7%20TanStack%20Query%20%C2%B7%20agentic%20workflows-0d1117?style=flat-square&labelColor=0d1117&color=203a43" />
-<img alt="fuelled by" src="https://img.shields.io/badge/%E2%98%95-cha%20%E2%86%92%20components-0d1117?style=flat-square&labelColor=0d1117&color=2c5364" />
-
-</div>
 
 <br />
 
