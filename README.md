@@ -156,19 +156,6 @@ Z.H. Sikder University of Science and Technology
 
 <br />
 
-## 📊 GitHub in Numbers
-
-<div align="center">
-
-<img height="180" alt="streak" src="https://streak-stats.demolab.com?user=hrz07&hide_border=true&theme=tokyonight&background=0d1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
-<img height="180" alt="top languages" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=hrz07&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=38BDF8&text_color=c9d1d9" />
-
-<img width="94%" alt="activity graph" src="https://github-readme-activity-graph-two.vercel.app/graph?username=hrz07&bg_color=0d1117&color=38BDF8&line=38BDF8&point=ffffff&area=true&hide_border=true" />
-
-</div>
-
-<br />
-
 ## 🐍 Watch the contributions get eaten
 
 <div align="center">
