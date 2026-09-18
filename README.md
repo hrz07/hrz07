@@ -165,8 +165,6 @@ Z.H. Sikder University of Science and Technology
 
 <img width="94%" alt="activity graph" src="https://github-readme-activity-graph-two.vercel.app/graph?username=hrz07&bg_color=0d1117&color=38BDF8&line=38BDF8&point=ffffff&area=true&hide_border=true" />
 
-<img width="94%" alt="trophies" src="https://github-trophies.vercel.app/?username=hrz07&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
-
 </div>
 
 <br />
