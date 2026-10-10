@@ -146,14 +146,6 @@
 
 </details>
 
-<details>
-<summary><b>🎓 B.Sc. (Hons.) in Computer Science & Engineering</b> &nbsp;·&nbsp; <sub>2017 — 2021</sub></summary>
-
-<br />
-
-Z.H. Sikder University of Science and Technology
-
-</details>
 
 <br />
 
