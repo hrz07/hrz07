@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 68" width="100%" height="100%" role="presentation">
+  <defs>
+    <linearGradient id="spiritThread" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64DFDF" stop-opacity="0" />
+      <stop offset="25%" stop-color="#64DFDF" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#FFE66D" stop-opacity="0.95" />
+      <stop offset="75%" stop-color="#64DFDF" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#64DFDF" stop-opacity="0" />
+    </linearGradient>
+
+    <g id="konpeitoStarDark">
+      <polygon points="0,-6.5 2,-2 6.5,-2 3,1 4.5,6 0,3 -4.5,6 -3,1 -6.5,-2 -2,-2" />
+      <circle cx="0" cy="0" r="2" fill="#FFFFFF" fill-opacity="0.65" />
+    </g>
+
+    <g id="miniSootDark">
+      <circle cx="0" cy="0" r="11" fill="#0A0B0E" stroke="#31527D" stroke-width="0.8" />
+      <path d="M-13,0 L-9,-2 M13,0 L9,2 M0,-13 L-2,-9 M0,13 L2,9 M-9,-9 L-6,-6 M9,-9 L6,-6 M-9,9 L-6,6 M9,9 L6,6" stroke="#0A0B0E" stroke-width="2" stroke-linecap="round" />
+      <circle cx="-3.6" cy="-1.2" r="3.4" fill="#FFFFFF" />
+      <circle cx="3.6" cy="-1.2" r="3.4" fill="#FFFFFF" />
+      <circle cx="-3.2" cy="-1.2" r="1.5" fill="#090A0F" />
+      <circle cx="4.0" cy="-1.2" r="1.5" fill="#090A0F" />
+    </g>
+  </defs>
+
+  <style>
+    .hop-a { animation: hopSprite 2.1s ease-in-out infinite; }
+    .hop-b { animation: hopSprite 2.4s ease-in-out 0.35s infinite; }
+    .hop-c { animation: hopSprite 2.0s ease-in-out 0.7s infinite; }
+    @keyframes hopSprite {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    .candy-spin-1 {
+      animation: candyPulse 3s ease-in-out infinite alternate;
+    }
+    .candy-spin-2 {
+      animation: candyPulse 3.6s ease-in-out 0.8s infinite alternate;
+    }
+    @keyframes candyPulse {
+      0% { transform: translateY(2px) scale(0.92); }
+      100% { transform: translateY(-4px) scale(1.08); }
+    }
+  </style>
+
+  <!-- Glowing Spirit Thread -->
+  <path d="M60,36 Q320,28 500,36 M700,36 Q880,44 1140,36" stroke="url(#spiritThread)" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- Glowing Spirit Orbs Along Thread -->
+  <g fill="#64DFDF" opacity="0.8">
+    <circle cx="265" cy="34" r="2.5" />
+    <circle cx="365" cy="34" r="2" fill="#FFE66D" />
+    <circle cx="450" cy="35" r="2.5" />
+    <circle cx="750" cy="37" r="2.5" />
+    <circle cx="835" cy="38" r="2" fill="#FFE66D" />
+    <circle cx="935" cy="37" r="2.5" />
+  </g>
+
+  <!-- Center Parade of Susuwatari & Glowing Konpeito -->
+  <g class="candy-spin-1" transform="translate(522, 36)">
+    <use href="#konpeitoStarDark" fill="#FF7EB6" />
+  </g>
+
+  <g transform="translate(556, 36)">
+    <g class="hop-a">
+      <use href="#miniSootDark" />
+    </g>
+  </g>
+
+  <g class="candy-spin-2" transform="translate(580, 22)">
+    <use href="#konpeitoStarDark" fill="#FFE66D" />
+  </g>
+
+  <g transform="translate(600, 34) scale(1.12)">
+    <g class="hop-b">
+      <use href="#miniSootDark" />
+    </g>
+  </g>
+
+  <g class="candy-spin-1" transform="translate(622, 22)">
+    <use href="#konpeitoStarDark" fill="#56E39F" />
+  </g>
+
+  <g transform="translate(644, 36)">
+    <g class="hop-c">
+      <use href="#miniSootDark" />
+    </g>
+  </g>
+
+  <g class="candy-spin-2" transform="translate(678, 36)">
+    <use href="#konpeitoStarDark" fill="#64DFDF" />
+  </g>
+</svg>

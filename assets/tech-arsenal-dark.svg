@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%" role="img" aria-label="Tech Arsenal - Languages, Frontend, State, Styling, Backend, and AI Tooling">
+  <defs>
+    <!-- Night Workshop Background -->
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091020" />
+      <stop offset="50%" stop-color="#0F1B33" />
+      <stop offset="100%" stop-color="#0A1426" />
+    </linearGradient>
+
+    <!-- Midnight Card Surface -->
+    <linearGradient id="cardDarkSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#13223A" />
+      <stop offset="100%" stop-color="#0E192D" />
+    </linearGradient>
+
+    <!-- Card Shadow -->
+    <filter id="darkSoftShadow" x="-6%" y="-6%" width="112%" height="116%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#02050B" flood-opacity="0.55" />
+    </filter>
+  </defs>
+
+  <style>
+    .card-title {
+      font-family: 'Georgia', 'Palatino Linotype', serif;
+      font-size: 18px;
+      font-weight: 700;
+      fill: #F8F5E6;
+    }
+    .card-sub {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #FFE66D;
+      letter-spacing: 1.5px;
+    }
+    .pill-text {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 12.5px;
+      font-weight: 600;
+      fill: #D9E8F5;
+    }
+    .pill-text-accent {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #08121E;
+    }
+
+    /* Micro-animations */
+    .float-icon {
+      animation: bobIcon 3.4s ease-in-out infinite alternate;
+    }
+    .spin-slow {
+      animation: rotateDial 16s linear infinite;
+      transform-origin: 454px 56px;
+    }
+    .calcifer-flame {
+      animation: flickerFlame 1.8s ease-in-out infinite alternate;
+      transform-origin: 454px 262px;
+    }
+    .soot-bob {
+      animation: bobIcon 2.2s ease-in-out infinite;
+    }
+    @keyframes bobIcon {
+      0% { transform: translateY(-3px); }
+      100% { transform: translateY(3px); }
+    }
+    @keyframes rotateDial {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes flickerFlame {
+      0% { transform: scale(0.94) rotate(-3deg); }
+      100% { transform: scale(1.08) rotate(3deg); }
+    }
+  </style>
+
+  <!-- Outer Canvas Frame -->
+  <rect width="1200" height="420" rx="18" fill="url(#bgDark)" stroke="#233B5E" stroke-width="1.5" />
+
+  <!-- Subtle Spirit Corner Filigree -->
+  <path d="M18,18 Q40,18 52,32 M18,18 Q18,40 32,52" stroke="#64DFDF" stroke-width="2" fill="none" opacity="0.4" />
+  <path d="M1182,18 Q1160,18 1148,32 M1182,18 Q1182,40 1168,52" stroke="#64DFDF" stroke-width="2" fill="none" opacity="0.4" />
+
+  <!-- =====================================================
+       CARD 1: LANGUAGES (x=24, y=22, w=368, h=176)
+       ===================================================== -->
+  <g filter="url(#darkSoftShadow)">
+    <rect x="24" y="22" width="368" height="176" rx="14" fill="url(#cardDarkSurface)" stroke="#29466E" stroke-width="1.5" />
+    <path d="M24,36 Q24,22 38,22 L378,22 Q392,22 392,36 L392,40 L24,40 Z" fill="#64DFDF" opacity="0.18" />
+  </g>
+  <g class="float-icon">
+    <circle cx="60" cy="58" r="18" fill="#172E4A" stroke="#64DFDF" stroke-width="1.5" />
+    <polygon points="60,46 63,54 71,54 65,59 67,67 60,62 53,67 55,59 49,54 57,54" fill="#FFE66D" />
+  </g>
+  <text x="88" y="53" class="card-sub">CHAPTER I · FOUNDATIONS</text>
+  <text x="88" y="73" class="card-title">Languages</text>
+
+  <!-- Pills Row 1 -->
+  <rect x="42" y="94" width="102" height="30" rx="8" fill="#64DFDF" />
+  <text x="93" y="114" text-anchor="middle" class="pill-text-accent">TypeScript</text>
+
+  <rect x="152" y="94" width="132" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="218" y="114" text-anchor="middle" class="pill-text">JavaScript ES6+</text>
+
+  <rect x="292" y="94" width="78" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="331" y="114" text-anchor="middle" class="pill-text">Python</text>
+
+  <!-- Pills Row 2 -->
+  <rect x="42" y="134" width="64" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="74" y="154" text-anchor="middle" class="pill-text">C++</text>
+
+  <rect x="114" y="134" width="52" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="140" y="154" text-anchor="middle" class="pill-text">C</text>
+
+  <rect x="174" y="134" width="78" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="213" y="154" text-anchor="middle" class="pill-text">HTML5</text>
+
+  <rect x="260" y="134" width="74" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="297" y="154" text-anchor="middle" class="pill-text">CSS3</text>
+
+  <!-- =====================================================
+       CARD 2: FRONTEND CRAFT (x=416, y=22, w=368, h=176)
+       ===================================================== -->
+  <g filter="url(#darkSoftShadow)">
+    <rect x="416" y="22" width="368" height="176" rx="14" fill="url(#cardDarkSurface)" stroke="#29466E" stroke-width="1.5" />
+    <path d="M416,36 Q416,22 430,22 L770,22 Q784,22 784,36 L784,40 L416,40 Z" fill="#56E39F" opacity="0.18" />
+  </g>
+  <circle cx="454" cy="56" r="18" fill="#153238" stroke="#56E39F" stroke-width="1.5" />
+  <g class="spin-slow">
+    <path d="M454,42 L458,52 L468,56 L458,60 L454,70 L450,60 L440,56 L450,52 Z" fill="#56E39F" />
+    <circle cx="454" cy="56" r="4" fill="#FFE66D" />
+  </g>
+  <text x="482" y="53" class="card-sub">CHAPTER II · INTERFACE ARCHITECTURE</text>
+  <text x="482" y="73" class="card-title">Frontend Craft</text>
+
+  <!-- Pills Row 1 -->
+  <rect x="434" y="94" width="82" height="30" rx="8" fill="#56E39F" />
+  <text x="475" y="114" text-anchor="middle" class="pill-text-accent">React</text>
+
+  <rect x="524" y="94" width="116" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="582" y="114" text-anchor="middle" class="pill-text">React Native</text>
+
+  <rect x="648" y="94" width="86" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="691" y="114" text-anchor="middle" class="pill-text">Next.js</text>
+
+  <!-- Pills Row 2 -->
+  <rect x="434" y="134" width="92" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="480" y="154" text-anchor="middle" class="pill-text">Angular</text>
+
+  <rect x="534" y="134" width="76" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="572" y="154" text-anchor="middle" class="pill-text">RxJS</text>
+
+  <!-- =====================================================
+       CARD 3: STATE & DATA (x=808, y=22, w=368, h=176)
+       ===================================================== -->
+  <g filter="url(#darkSoftShadow)">
+    <rect x="808" y="22" width="368" height="176" rx="14" fill="url(#cardDarkSurface)" stroke="#29466E" stroke-width="1.5" />
+    <path d="M808,36 Q808,22 822,22 L1162,22 Q1176,22 1176,36 L1176,40 L808,40 Z" fill="#FF9F1C" opacity="0.18" />
+  </g>
+  <g class="float-icon">
+    <circle cx="846" cy="56" r="18" fill="#2E2528" stroke="#FF9F1C" stroke-width="1.5" />
+    <path d="M836,56 Q841,48 846,56 Q851,64 856,56" stroke="#FF9F1C" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <circle cx="846" cy="50" r="2.5" fill="#FFE66D" />
+  </g>
+  <text x="874" y="53" class="card-sub">CHAPTER III · CURRENTS &amp; FLOW</text>
+  <text x="874" y="73" class="card-title">State &amp; Data</text>
+
+  <!-- Pills Row 1 -->
+  <rect x="826" y="94" width="132" height="30" rx="8" fill="#FFB84D" />
+  <text x="892" y="114" text-anchor="middle" class="pill-text-accent">TanStack Query</text>
+
+  <rect x="966" y="94" width="88" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="1010" y="114" text-anchor="middle" class="pill-text">Zustand</text>
+
+  <rect x="1062" y="94" width="96" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="1110" y="114" text-anchor="middle" class="pill-text">REST APIs</text>
+
+  <!-- Pills Row 2 -->
+  <rect x="826" y="134" width="142" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="897" y="154" text-anchor="middle" class="pill-text">React Hook Form</text>
+
+  <rect x="976" y="134" width="92" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="1022" y="154" text-anchor="middle" class="pill-text">GraphQL</text>
+
+  <!-- =====================================================
+       CARD 4: STYLING & UI (x=24, y=220, w=368, h=176)
+       ===================================================== -->
+  <g filter="url(#darkSoftShadow)">
+    <rect x="24" y="220" width="368" height="176" rx="14" fill="url(#cardDarkSurface)" stroke="#29466E" stroke-width="1.5" />
+    <path d="M24,234 Q24,220 38,220 L378,220 Q392,220 392,234 L392,238 L24,238 Z" fill="#72DDF7" opacity="0.18" />
+  </g>
+  <g class="float-icon">
+    <circle cx="60" cy="254" r="18" fill="#152E42" stroke="#72DDF7" stroke-width="1.5" />
+    <path d="M52,260 Q54,244 68,246 Q66,260 52,260 Z" fill="#56E39F" />
+    <path d="M52,260 L62,250" stroke="#0E192D" stroke-width="1.5" />
+  </g>
+  <text x="88" y="251" class="card-sub">CHAPTER IV · AESTHETICS &amp; DESIGN</text>
+  <text x="88" y="271" class="card-title">Styling &amp; UI</text>
+
+  <!-- Pills Row 1 -->
+  <rect x="42" y="292" width="106" height="30" rx="8" fill="#72DDF7" />
+  <text x="95" y="312" text-anchor="middle" class="pill-text-accent">Material UI</text>
+
+  <rect x="156" y="292" width="114" height="30" rx="8" fill="#56E39F" />
+  <text x="213" y="312" text-anchor="middle" class="pill-text-accent">Tailwind CSS</text>
+
+  <rect x="278" y="292" width="96" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="326" y="312" text-anchor="middle" class="pill-text">shadcn/ui</text>
+
+  <!-- Pills Row 2 -->
+  <rect x="42" y="332" width="96" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="90" y="352" text-anchor="middle" class="pill-text">Ant Design</text>
+
+  <rect x="146" y="332" width="94" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="193" y="352" text-anchor="middle" class="pill-text">Bootstrap</text>
+
+  <!-- =====================================================
+       CARD 5: BACKEND & DATA (x=416, y=220, w=368, h=176)
+       ===================================================== -->
+  <g filter="url(#darkSoftShadow)">
+    <rect x="416" y="220" width="368" height="176" rx="14" fill="url(#cardDarkSurface)" stroke="#29466E" stroke-width="1.5" />
+    <path d="M416,234 Q416,220 430,220 L770,220 Q784,220 784,234 L784,238 L416,238 Z" fill="#FF9F1C" opacity="0.18" />
+  </g>
+  <!-- Calcifer Hearth Flame Icon -->
+  <circle cx="454" cy="254" r="18" fill="#2B2123" stroke="#FF9F1C" stroke-width="1.5" />
+  <g class="calcifer-flame">
+    <path d="M454,240 Q464,250 462,259 A8,8 0 1,1 446,259 Q444,250 454,240 Z" fill="#FF7B29" />
+    <path d="M454,246 Q460,253 458,259 A4.5,4.5 0 1,1 450,259 Q448,253 454,246 Z" fill="#FFE66D" />
+    <circle cx="452" cy="257" r="1.3" fill="#0E192D" />
+    <circle cx="456" cy="257" r="1.3" fill="#0E192D" />
+  </g>
+  <text x="482" y="251" class="card-sub">CHAPTER V · HEARTH &amp; ENGINES</text>
+  <text x="482" y="271" class="card-title">Backend &amp; Data</text>
+
+  <!-- Pills Row 1 -->
+  <rect x="434" y="292" width="84" height="30" rx="8" fill="#56E39F" />
+  <text x="476" y="312" text-anchor="middle" class="pill-text-accent">Node.js</text>
+
+  <rect x="526" y="292" width="80" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="566" y="312" text-anchor="middle" class="pill-text">NestJS</text>
+
+  <rect x="614" y="292" width="82" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="655" y="312" text-anchor="middle" class="pill-text">Express</text>
+
+  <!-- Pills Row 2 -->
+  <rect x="434" y="332" width="96" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="482" y="352" text-anchor="middle" class="pill-text">MongoDB</text>
+
+  <rect x="538" y="332" width="108" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="592" y="352" text-anchor="middle" class="pill-text">PostgreSQL</text>
+
+  <!-- =====================================================
+       CARD 6: TOOLING & AI SPIRITS (x=808, y=220, w=368, h=176)
+       ===================================================== -->
+  <g filter="url(#darkSoftShadow)">
+    <rect x="808" y="220" width="368" height="176" rx="14" fill="url(#cardDarkSurface)" stroke="#29466E" stroke-width="1.5" />
+    <path d="M808,234 Q808,220 822,220 L1162,220 Q1176,220 1176,234 L1176,238 L808,238 Z" fill="#FFE66D" opacity="0.18" />
+  </g>
+  <g class="soot-bob">
+    <circle cx="846" cy="254" r="18" fill="#1A2842" stroke="#FFE66D" stroke-width="1.5" />
+    <circle cx="846" cy="254" r="9.5" fill="#08090C" />
+    <circle cx="843" cy="253" r="2.8" fill="#FFFFFF" />
+    <circle cx="849" cy="253" r="2.8" fill="#FFFFFF" />
+    <circle cx="843.5" cy="253" r="1.2" fill="#08090C" />
+    <circle cx="849.5" cy="253" r="1.2" fill="#08090C" />
+  </g>
+  <text x="874" y="251" class="card-sub">CHAPTER VI · FAMILIARS &amp; CRAFT</text>
+  <text x="874" y="271" class="card-title">Tooling &amp; AI-Assisted Dev</text>
+
+  <!-- Pills Row 1 -->
+  <rect x="826" y="292" width="102" height="30" rx="8" fill="#FFE66D" />
+  <text x="877" y="312" text-anchor="middle" class="pill-text-accent">Antigravity</text>
+
+  <rect x="936" y="292" width="74" height="30" rx="8" fill="#64DFDF" />
+  <text x="973" y="312" text-anchor="middle" class="pill-text-accent">Cursor</text>
+
+  <rect x="1018" y="292" width="92" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="1064" y="312" text-anchor="middle" class="pill-text">OpenCode</text>
+
+  <rect x="1116" y="292" width="44" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="1138" y="312" text-anchor="middle" class="pill-text">Git</text>
+
+  <!-- Pills Row 2 -->
+  <rect x="826" y="332" width="74" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="863" y="352" text-anchor="middle" class="pill-text">Docker</text>
+
+  <rect x="908" y="332" width="96" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="956" y="352" text-anchor="middle" class="pill-text">Playwright</text>
+
+  <rect x="1012" y="332" width="58" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="1041" y="352" text-anchor="middle" class="pill-text">Jest</text>
+
+  <rect x="1078" y="332" width="82" height="30" rx="8" fill="#182B49" stroke="#31527D" stroke-width="1" />
+  <text x="1119" y="352" text-anchor="middle" class="pill-text">Postman</text>
+</svg>

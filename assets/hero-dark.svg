@@ -1,0 +1,391 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" role="img" aria-label="Rashedul Islam Hridoy - Software Engineer">
+  <defs>
+    <!-- Night Sky Gradient: Deep Starlit Indigo to Spirit River Teal -->
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070B19" />
+      <stop offset="40%" stop-color="#111C38" />
+      <stop offset="76%" stop-color="#1D3557" />
+      <stop offset="100%" stop-color="#27536B" />
+    </linearGradient>
+
+    <!-- Moon Glow Radial -->
+    <radialGradient id="moonHalo" cx="86%" cy="22%" r="28%">
+      <stop offset="0%" stop-color="#FFFDF0" stop-opacity="0.85" />
+      <stop offset="22%" stop-color="#90E0EF" stop-opacity="0.35" />
+      <stop offset="55%" stop-color="#48CAE4" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#48CAE4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Lantern Warm Glow -->
+    <radialGradient id="lanternGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE66D" stop-opacity="0.95" />
+      <stop offset="45%" stop-color="#FF9F1C" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#FF9F1C" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Night Cloud Gradient -->
+    <linearGradient id="nightCloud" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2B466B" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#13223D" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Twilight Sea Reflection Gradient -->
+    <linearGradient id="spiritSea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A3A54" />
+      <stop offset="100%" stop-color="#0B1829" />
+    </linearGradient>
+
+    <!-- Foreground Mossy Ridge -->
+    <linearGradient id="nightRidge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#132A2E" />
+      <stop offset="50%" stop-color="#0D1F24" />
+      <stop offset="100%" stop-color="#071217" />
+    </linearGradient>
+
+    <!-- Midnight Glass Nameplate -->
+    <linearGradient id="midnightCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E172A" stop-opacity="0.90" />
+      <stop offset="100%" stop-color="#152238" stop-opacity="0.92" />
+    </linearGradient>
+
+    <!-- Spirit Gold Filigree Border -->
+    <linearGradient id="spiritGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D49B38" />
+      <stop offset="50%" stop-color="#FFE66D" />
+      <stop offset="100%" stop-color="#64DFDF" />
+    </linearGradient>
+
+    <!-- Card Drop Shadow -->
+    <filter id="darkCardShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#02050A" flood-opacity="0.65" />
+    </filter>
+
+    <!-- Reusable Konpeito Star Candy -->
+    <g id="konpeitoDark">
+      <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" />
+      <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" fill-opacity="0.6" />
+    </g>
+
+    <!-- Reusable Soot Sprite -->
+    <g id="sootSpriteDark">
+      <circle cx="0" cy="0" r="14" fill="#0A0B0E" stroke="#2B3A55" stroke-width="0.7" />
+      <path d="M-16,0 L-12,-3 M16,0 L12,3 M0,-16 L-3,-12 M0,16 L3,12 M-12,-12 L-8,-8 M12,-12 L8,-8 M-12,12 L-8,8 M12,12 L8,8 M-15,-6 L-11,-4 M15,-6 L11,-4 M-6,-15 L-4,-11 M6,15 L4,11" stroke="#0A0B0E" stroke-width="2.2" stroke-linecap="round" />
+      <circle cx="-4.5" cy="-1.5" r="4.2" fill="#FFFFFF" />
+      <circle cx="4.5" cy="-1.5" r="4.2" fill="#FFFFFF" />
+      <circle class="pupil" cx="-4" cy="-1.5" r="1.8" fill="#090A0F" />
+      <circle class="pupil" cx="5" cy="-1.5" r="1.8" fill="#090A0F" />
+    </g>
+
+    <!-- Reusable Kodama (Glowing Tree Spirit) -->
+    <g id="kodamaSpirit">
+      <circle cx="0" cy="-14" r="16" fill="url(#moonHalo)" />
+      <!-- Body -->
+      <path d="M-5,0 L-4,-9 L4,-9 L5,0 Z" fill="#E2F9F3" opacity="0.92" />
+      <!-- Head -->
+      <g class="kodama-head">
+        <ellipse cx="0" cy="-15" rx="9" ry="8" fill="#ECFEF9" />
+        <circle cx="-3.5" cy="-16" r="1.8" fill="#132A2E" />
+        <circle cx="3.8" cy="-15" r="2.1" fill="#132A2E" />
+        <ellipse cx="0" cy="-11.5" rx="1.6" ry="2.2" fill="#132A2E" />
+      </g>
+    </g>
+
+    <!-- Reusable Spirit Lantern -->
+    <g id="spiritLantern">
+      <circle cx="0" cy="0" r="22" fill="url(#lanternGlow)" />
+      <rect x="-5" y="-7" width="10" height="14" rx="3" fill="#FFE66D" stroke="#FF9F1C" stroke-width="1" />
+      <line x1="-3" y1="-7" x2="3" y2="-7" stroke="#8C4A15" stroke-width="1.5" />
+      <line x1="-3" y1="7" x2="3" y2="7" stroke="#8C4A15" stroke-width="1.5" />
+    </g>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
+      font-size: 42px;
+      font-weight: 700;
+      fill: #F8F5E6;
+      letter-spacing: 0.5px;
+    }
+    .studio-badge {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #FFE66D;
+      letter-spacing: 2.5px;
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 15.5px;
+      font-weight: 600;
+      fill: #8CE8E8;
+      letter-spacing: 0.4px;
+    }
+    .ticker-text {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 14.5px;
+      font-weight: 600;
+      fill: #FFB84D;
+    }
+
+    /* Star Twinkle */
+    .twinkle-1 { animation: starTwinkle 3.2s ease-in-out infinite alternate; }
+    .twinkle-2 { animation: starTwinkle 4.5s ease-in-out 1.2s infinite alternate; }
+    .twinkle-3 { animation: starTwinkle 2.7s ease-in-out 0.6s infinite alternate; }
+    @keyframes starTwinkle {
+      0% { opacity: 0.25; transform: scale(0.85); }
+      100% { opacity: 1; transform: scale(1.15); }
+    }
+
+    /* Howl's Shooting Star */
+    .falling-star {
+      animation: shootStar 9s ease-in-out infinite;
+    }
+    @keyframes shootStar {
+      0%, 12% { transform: translate(0px, 0px); opacity: 0; }
+      15% { opacity: 1; }
+      32% { transform: translate(-340px, 125px); opacity: 0; }
+      100% { transform: translate(-340px, 125px); opacity: 0; }
+    }
+
+    /* Night Cloud Drift */
+    .cloud-drift-1 { animation: nightDrift 26s ease-in-out infinite alternate; }
+    .cloud-drift-2 { animation: nightDrift 20s ease-in-out infinite alternate-reverse; }
+    @keyframes nightDrift {
+      0% { transform: translateX(-16px); }
+      100% { transform: translateX(20px); }
+    }
+
+    /* Floating Lanterns */
+    .lantern-float-1 { animation: lanternRise 6.5s ease-in-out infinite alternate; }
+    .lantern-float-2 { animation: lanternRise 8s ease-in-out 1.5s infinite alternate-reverse; }
+    .lantern-float-3 { animation: lanternRise 7.2s ease-in-out 0.8s infinite alternate; }
+    @keyframes lanternRise {
+      0% { transform: translate(0px, 0px); }
+      100% { transform: translate(6px, -14px); }
+    }
+
+    /* Kodama Head Tilt */
+    .kodama-head {
+      animation: tiltHead 4.2s ease-in-out infinite alternate;
+      transform-origin: 0px -10px;
+    }
+    @keyframes tiltHead {
+      0%, 25% { transform: rotate(-14deg); }
+      75%, 100% { transform: rotate(16deg); }
+    }
+
+    /* Soot Sprite Hop */
+    .soot-hop-1 { animation: sootHop 2.5s ease-in-out infinite; }
+    .soot-hop-2 { animation: sootHop 2.9s ease-in-out 0.8s infinite; }
+    @keyframes sootHop {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    .pupil {
+      animation: pupilLook 5s ease-in-out infinite;
+    }
+    @keyframes pupilLook {
+      0%, 40%, 100% { transform: translate(0, 0); }
+      50%, 80% { transform: translate(1.5px, -0.5px); }
+    }
+
+    /* Water Shimmer */
+    .water-shimmer {
+      animation: shimmerPulse 3.5s ease-in-out infinite alternate;
+    }
+    @keyframes shimmerPulse {
+      0% { opacity: 0.45; }
+      100% { opacity: 0.9; }
+    }
+
+    /* 4-Line Cycling Story Ticker (16s total cycle) */
+    .ticker-1 { animation: cycleLine1 16s infinite; }
+    .ticker-2 { animation: cycleLine2 16s infinite; }
+    .ticker-3 { animation: cycleLine3 16s infinite; }
+    .ticker-4 { animation: cycleLine4 16s infinite; }
+
+    @keyframes cycleLine1 {
+      0%, 3% { opacity: 0; transform: translateY(8px); }
+      6%, 22% { opacity: 1; transform: translateY(0px); }
+      25%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes cycleLine2 {
+      0%, 25% { opacity: 0; transform: translateY(8px); }
+      28%, 47% { opacity: 1; transform: translateY(0px); }
+      50%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes cycleLine3 {
+      0%, 50% { opacity: 0; transform: translateY(8px); }
+      53%, 72% { opacity: 1; transform: translateY(0px); }
+      75%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes cycleLine4 {
+      0%, 75% { opacity: 0; transform: translateY(8px); }
+      78%, 97% { opacity: 1; transform: translateY(0px); }
+      100% { opacity: 0; transform: translateY(-8px); }
+    }
+  </style>
+
+  <!-- 1. Enchanted Night Sky -->
+  <rect width="1200" height="380" rx="18" fill="url(#nightSky)" />
+
+  <!-- 2. Starfield -->
+  <g fill="#FFFDF5">
+    <circle class="twinkle-1" cx="75" cy="48" r="1.6" />
+    <circle class="twinkle-2" cx="145" cy="82" r="1.2" />
+    <circle class="twinkle-3" cx="220" cy="36" r="2.0" fill="#90E0EF" />
+    <circle class="twinkle-1" cx="315" cy="65" r="1.3" />
+    <circle class="twinkle-2" cx="440" cy="28" r="1.5" />
+    <circle class="twinkle-3" cx="560" cy="22" r="1.2" />
+    <circle class="twinkle-1" cx="690" cy="30" r="1.7" fill="#FFE66D" />
+    <circle class="twinkle-2" cx="810" cy="44" r="1.3" />
+    <circle class="twinkle-3" cx="920" cy="26" r="1.8" />
+    <circle class="twinkle-1" cx="1115" cy="52" r="1.5" />
+    <circle class="twinkle-2" cx="1155" cy="95" r="1.2" />
+    <!-- 4-Point Sparkle Stars -->
+    <path class="twinkle-3" d="M180,58 L182,63 L187,65 L182,67 L180,72 L178,67 L173,65 L178,63 Z" fill="#FFE66D" />
+    <path class="twinkle-1" d="M860,68 L862,72 L866,74 L862,76 L860,80 L858,76 L854,74 L858,72 Z" fill="#64DFDF" />
+  </g>
+
+  <!-- 3. Howl's Falling Star (Shooting Star) -->
+  <g class="falling-star" transform="translate(960, 28)">
+    <line x1="0" y1="0" x2="75" y2="-28" stroke="#64DFDF" stroke-width="2.5" stroke-linecap="round" opacity="0.75" />
+    <line x1="0" y1="0" x2="40" y2="-15" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="4.5" fill="#FFFDF5" />
+    <circle cx="0" cy="0" r="9" fill="#64DFDF" opacity="0.45" />
+  </g>
+
+  <!-- 4. Glowing Crescent Moon -->
+  <g>
+    <circle cx="1035" cy="84" r="150" fill="url(#moonHalo)" />
+    <path d="M1025,52 A32,32 0 1,0 1058,98 A26,26 0 1,1 1025,52 Z" fill="#FFFDF2" />
+  </g>
+
+  <!-- 5. Night Clouds -->
+  <g class="cloud-drift-1">
+    <path d="M-20,255 Q35,195 95,210 Q135,155 205,175 Q265,165 300,220 L340,255 Z" fill="url(#nightCloud)" />
+    <path d="M850,250 Q905,185 965,200 Q1025,148 1095,175 Q1155,168 1220,245 Z" fill="url(#nightCloud)" />
+  </g>
+
+  <!-- 6. Spirited Away Bathhouse Silhouette (Left Horizon) -->
+  <g transform="translate(82, 188)">
+    <!-- Pagoda Roofs & Tower -->
+    <rect x="18" y="34" width="44" height="45" fill="#0D192B" />
+    <polygon points="8,36 40,18 72,36" fill="#172A45" />
+    <rect x="24" y="14" width="32" height="20" fill="#0D192B" />
+    <polygon points="14,16 40,2 66,16" fill="#172A45" />
+    <!-- Warm Glowing Bathhouse Windows -->
+    <g fill="#FFB84D">
+      <rect x="24" y="42" width="6" height="8" rx="1" />
+      <rect x="33" y="42" width="6" height="8" rx="1" />
+      <rect x="42" y="42" width="6" height="8" rx="1" />
+      <rect x="51" y="42" width="6" height="8" rx="1" />
+      <rect x="28" y="55" width="7" height="9" rx="1" fill="#FFE66D" />
+      <rect x="38" y="55" width="7" height="9" rx="1" fill="#FFE66D" />
+      <rect x="48" y="55" width="7" height="9" rx="1" fill="#FFE66D" />
+      <rect x="31" y="21" width="6" height="7" rx="1" fill="#FFE66D" />
+      <rect x="42" y="21" width="6" height="7" rx="1" fill="#FFE66D" />
+    </g>
+  </g>
+
+  <!-- 7. Calm Twilight Spirit Sea & Shimmering Reflections -->
+  <rect x="0" y="262" width="1200" height="118" fill="url(#spiritSea)" />
+  <g class="water-shimmer" fill="#FFE66D">
+    <rect x="104" y="272" width="36" height="2.2" rx="1" opacity="0.7" />
+    <rect x="110" y="280" width="24" height="2" rx="1" opacity="0.5" />
+    <rect x="1015" y="274" width="46" height="2.2" rx="1" fill="#90E0EF" opacity="0.65" />
+    <rect x="1024" y="283" width="30" height="2" rx="1" fill="#90E0EF" opacity="0.45" />
+  </g>
+
+  <!-- 8. Floating Spirit Lanterns -->
+  <g class="lantern-float-1" transform="translate(175, 165)">
+    <use href="#spiritLantern" />
+  </g>
+  <g class="lantern-float-2" transform="translate(88, 128) scale(0.75)">
+    <use href="#spiritLantern" />
+  </g>
+  <g class="lantern-float-3" transform="translate(1015, 175) scale(0.9)">
+    <use href="#spiritLantern" />
+  </g>
+  <g class="lantern-float-1" transform="translate(1110, 140) scale(0.72)">
+    <use href="#spiritLantern" />
+  </g>
+
+  <!-- 9. Foreground Mossy Forest Banks -->
+  <path d="M0,315 Q230,275 490,335 L490,380 L0,380 Z" fill="url(#nightRidge)" />
+  <path d="M710,335 Q960,275 1200,312 L1200,380 L710,380 Z" fill="url(#nightRidge)" />
+  <path d="M0,342 Q320,305 600,342 Q880,370 1200,322 L1200,380 L0,380 Z" fill="#071217" />
+
+  <!-- Glowing Bioluminescent Forest Spores & Kodama Spirits -->
+  <g transform="translate(68, 332)">
+    <use href="#kodamaSpirit" />
+  </g>
+  <g transform="translate(1125, 326) scale(0.9)">
+    <use href="#kodamaSpirit" />
+  </g>
+
+  <!-- Soot Sprites with Glowing Konpeito -->
+  <g transform="translate(135, 336)">
+    <g class="soot-hop-1">
+      <use href="#sootSpriteDark" />
+      <use href="#konpeitoDark" x="18" y="6" fill="#64DFDF" />
+    </g>
+  </g>
+  <g transform="translate(1055, 334)">
+    <g class="soot-hop-2">
+      <use href="#sootSpriteDark" />
+      <use href="#konpeitoDark" x="-18" y="6" fill="#FFE66D" />
+    </g>
+  </g>
+
+  <!-- 10. Centerpiece Midnight-Glass Nameplate -->
+  <g filter="url(#darkCardShadow)">
+    <rect x="235" y="48" width="730" height="238" rx="20" fill="url(#midnightCard)" stroke="url(#spiritGold)" stroke-width="2" />
+    <rect x="245" y="58" width="710" height="218" rx="14" fill="none" stroke="#64DFDF" stroke-width="1" stroke-opacity="0.28" stroke-dasharray="6 4" />
+  </g>
+
+  <!-- Corner Filigree Ornaments -->
+  <g stroke="#FFE66D" stroke-width="1.6" fill="none" opacity="0.8">
+    <path d="M255,78 C255,66 265,66 277,66" />
+    <circle cx="255" cy="78" r="2.5" fill="#64DFDF" stroke="none" />
+    <circle cx="277" cy="66" r="2.5" fill="#64DFDF" stroke="none" />
+
+    <path d="M945,78 C945,66 935,66 923,66" />
+    <circle cx="945" cy="78" r="2.5" fill="#64DFDF" stroke="none" />
+    <circle cx="923" cy="66" r="2.5" fill="#64DFDF" stroke="none" />
+
+    <path d="M255,256 C255,268 265,268 277,268" />
+    <circle cx="255" cy="256" r="2.5" fill="#64DFDF" stroke="none" />
+    <circle cx="277" cy="268" r="2.5" fill="#64DFDF" stroke="none" />
+
+    <path d="M945,256 C945,268 935,268 923,268" />
+    <circle cx="945" cy="256" r="2.5" fill="#64DFDF" stroke="none" />
+    <circle cx="923" cy="268" r="2.5" fill="#64DFDF" stroke="none" />
+  </g>
+
+  <!-- Nameplate Content -->
+  <text x="600" y="92" text-anchor="middle" class="studio-badge">✦ STUDIO OF FRONTEND ARCHITECTURE &amp; AI CRAFT ✦</text>
+
+  <text x="600" y="144" text-anchor="middle" class="title-text">Rashedul Islam Hridoy</text>
+
+  <!-- Decorative Spirit Star Divider Inside Card -->
+  <g transform="translate(600, 164)">
+    <line x1="-170" y1="0" x2="-22" y2="0" stroke="#64DFDF" stroke-width="1.2" opacity="0.5" />
+    <polygon points="0,-6 2,-2 6,0 2,2 0,6 -2,2 -6,0 -2,-2" fill="#FFE66D" />
+    <line x1="22" y1="0" x2="170" y2="0" stroke="#64DFDF" stroke-width="1.2" opacity="0.5" />
+  </g>
+
+  <text x="600" y="196" text-anchor="middle" class="subtitle-text">Software Engineer  ·  React  ·  TypeScript  ·  AI-Assisted Development</text>
+
+  <!-- Animated Ticker Pill Box -->
+  <rect x="300" y="216" width="600" height="42" rx="21" fill="#091120" fill-opacity="0.82" stroke="#64DFDF" stroke-opacity="0.45" stroke-width="1.2" />
+
+  <!-- 4-Line Cycling Ticker Text -->
+  <g>
+    <text x="600" y="242" text-anchor="middle" class="ticker-text ticker-1">🌿 3+ years building scalable React + TypeScript apps</text>
+    <text x="600" y="242" text-anchor="middle" class="ticker-text ticker-2">✨ Leading Angular → React migrations in production</text>
+    <text x="600" y="242" text-anchor="middle" class="ticker-text ticker-3">🔥 Shipping AI chat UIs that survive heavy streaming</text>
+    <text x="600" y="242" text-anchor="middle" class="ticker-text ticker-4">🧭 Turning AI agents into real engineering leverage</text>
+  </g>
+</svg>

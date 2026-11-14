@@ -1,0 +1,430 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" role="img" aria-label="Rashedul Islam Hridoy - Software Engineer">
+  <defs>
+    <!-- Sky Gradient: Ghibli Cerulean to Warm Horizon Cream -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2974B8" />
+      <stop offset="38%" stop-color="#62B1E6" />
+      <stop offset="72%" stop-color="#AEE0F7" />
+      <stop offset="100%" stop-color="#FFF5D6" />
+    </linearGradient>
+
+    <!-- Sun Halo Gradient -->
+    <radialGradient id="sunGlow" cx="85%" cy="22%" r="32%">
+      <stop offset="0%" stop-color="#FFFDF2" stop-opacity="0.95" />
+      <stop offset="25%" stop-color="#FFE58F" stop-opacity="0.65" />
+      <stop offset="60%" stop-color="#FFD666" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FFD666" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Cloud Highlight & Shadow Gradients -->
+    <linearGradient id="cloudLit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="65%" stop-color="#FFFBF0" />
+      <stop offset="100%" stop-color="#D6E9F8" />
+    </linearGradient>
+
+    <linearGradient id="cloudShade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0F7FD" />
+      <stop offset="100%" stop-color="#ACCBE8" />
+    </linearGradient>
+
+    <!-- Distant Mountain Gradient -->
+    <linearGradient id="mountainDist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5B8FA8" />
+      <stop offset="100%" stop-color="#8FC1B5" />
+    </linearGradient>
+
+    <!-- Mid Hill Gradient -->
+    <linearGradient id="hillMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#68AD5B" />
+      <stop offset="100%" stop-color="#3E7C47" />
+    </linearGradient>
+
+    <!-- Foreground Meadow Gradient -->
+    <linearGradient id="hillFront" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E9447" />
+      <stop offset="50%" stop-color="#346E36" />
+      <stop offset="100%" stop-color="#1E4B27" />
+    </linearGradient>
+
+    <!-- Parchment Nameplate Gradient -->
+    <linearGradient id="parchmentCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7" stop-opacity="0.93" />
+      <stop offset="100%" stop-color="#FDF4DC" stop-opacity="0.90" />
+    </linearGradient>
+
+    <!-- Gold Filigree Gradient -->
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B87D2B" />
+      <stop offset="50%" stop-color="#E5A93C" />
+      <stop offset="100%" stop-color="#B87D2B" />
+    </linearGradient>
+
+    <!-- Soft Drop Shadow for Card -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1A3A2A" flood-opacity="0.22" />
+    </filter>
+
+    <!-- Reusable Konpeito Star Candy -->
+    <g id="konpeito">
+      <polygon points="0,-7 2,-2 7,-2 3,1 5,6 0,3 -5,6 -3,1 -7,-2 -2,-2" />
+      <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" fill-opacity="0.4" />
+    </g>
+
+    <!-- Reusable Soot Sprite (Susuwatari) -->
+    <g id="sootSprite">
+      <!-- Fuzzy spikes -->
+      <circle cx="0" cy="0" r="14" fill="#1B1B1E" />
+      <path d="M-16,0 L-12,-3 M16,0 L12,3 M0,-16 L-3,-12 M0,16 L3,12 M-12,-12 L-8,-8 M12,-12 L8,-8 M-12,12 L-8,8 M12,12 L8,8 M-15,-6 L-11,-4 M15,-6 L11,-4 M-6,-15 L-4,-11 M6,15 L4,11" stroke="#1B1B1E" stroke-width="2.2" stroke-linecap="round" />
+      <!-- Eyes -->
+      <circle cx="-4.5" cy="-1.5" r="4.2" fill="#FFFFFF" />
+      <circle cx="4.5" cy="-1.5" r="4.2" fill="#FFFFFF" />
+      <circle class="pupil" cx="-4" cy="-1.5" r="1.8" fill="#111111" />
+      <circle class="pupil" cx="5" cy="-1.5" r="1.8" fill="#111111" />
+    </g>
+
+    <!-- Reusable Grass Tuft -->
+    <g id="grassTuft">
+      <path d="M0,0 Q-4,-14 -10,-22 Q-2,-12 0,0 Z" fill="#6BB859" />
+      <path d="M2,0 Q4,-18 11,-26 Q6,-14 2,0 Z" fill="#82CC6A" />
+      <path d="M-2,0 Q-1,-15 2,-24 Q-3,-14 -2,0 Z" fill="#4C8F42" />
+    </g>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
+      font-size: 42px;
+      font-weight: 700;
+      fill: #1A3324;
+      letter-spacing: 0.5px;
+    }
+    .studio-badge {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #9C621E;
+      letter-spacing: 2.5px;
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 15.5px;
+      font-weight: 600;
+      fill: #2E5A3C;
+      letter-spacing: 0.4px;
+    }
+    .ticker-text {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 14.5px;
+      font-weight: 600;
+      fill: #B85D19;
+    }
+
+    /* Cloud Parallax Drift */
+    .cloud-slow {
+      animation: driftCloudSlow 28s ease-in-out infinite alternate;
+    }
+    .cloud-med {
+      animation: driftCloudMed 19s ease-in-out infinite alternate;
+    }
+    @keyframes driftCloudSlow {
+      0% { transform: translateX(-18px); }
+      100% { transform: translateX(22px); }
+    }
+    @keyframes driftCloudMed {
+      0% { transform: translateX(20px); }
+      100% { transform: translateX(-24px); }
+    }
+
+    /* Sun Glow Pulse */
+    .sun-halo {
+      animation: pulseSun 6s ease-in-out infinite alternate;
+      transform-origin: 1020px 84px;
+    }
+    @keyframes pulseSun {
+      0% { transform: scale(0.96); opacity: 0.88; }
+      100% { transform: scale(1.06); opacity: 1; }
+    }
+
+    /* Windmill Blades Rotation */
+    .windmill-blades {
+      animation: spinBlades 14s linear infinite;
+      transform-origin: 185px 212px;
+    }
+    @keyframes spinBlades {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Swaying Meadow Grass */
+    .sway-grass-1 {
+      animation: grassSway 3.6s ease-in-out infinite alternate;
+      transform-origin: bottom center;
+    }
+    .sway-grass-2 {
+      animation: grassSway 4.4s ease-in-out infinite alternate-reverse;
+      transform-origin: bottom center;
+    }
+    @keyframes grassSway {
+      0% { transform: skewX(-6deg); }
+      100% { transform: skewX(8deg); }
+    }
+
+    /* Soot Sprite Bounce and Eye Shift */
+    .soot-hop-1 {
+      animation: sootHop 2.4s ease-in-out infinite;
+    }
+    .soot-hop-2 {
+      animation: sootHop 2.8s ease-in-out 0.7s infinite;
+    }
+    .soot-hop-3 {
+      animation: sootHop 2.2s ease-in-out 1.2s infinite;
+    }
+    @keyframes sootHop {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-9px) rotate(4deg); }
+    }
+    .pupil {
+      animation: pupilLook 5s ease-in-out infinite;
+    }
+    @keyframes pupilLook {
+      0%, 40%, 100% { transform: translate(0, 0); }
+      50%, 80% { transform: translate(1.4px, -0.5px); }
+    }
+
+    /* Floating Petals / Dandelion Seeds */
+    .petal-1 { animation: floatSeed1 11s linear infinite; }
+    .petal-2 { animation: floatSeed2 14s linear 3s infinite; }
+    .petal-3 { animation: floatSeed1 12s linear 6s infinite; }
+    .petal-4 { animation: floatSeed2 15s linear 1.5s infinite; }
+    @keyframes floatSeed1 {
+      0% { transform: translate(0px, 0px) rotate(0deg); opacity: 0; }
+      15% { opacity: 0.9; }
+      85% { opacity: 0.9; }
+      100% { transform: translate(180px, -95px) rotate(220deg); opacity: 0; }
+    }
+    @keyframes floatSeed2 {
+      0% { transform: translate(0px, 0px) rotate(0deg); opacity: 0; }
+      15% { opacity: 0.85; }
+      85% { opacity: 0.85; }
+      100% { transform: translate(220px, -70px) rotate(-180deg); opacity: 0; }
+    }
+
+    /* 4-Line Cycling Story Ticker (16s total cycle) */
+    .ticker-1 { animation: cycleLine1 16s infinite; }
+    .ticker-2 { animation: cycleLine2 16s infinite; }
+    .ticker-3 { animation: cycleLine3 16s infinite; }
+    .ticker-4 { animation: cycleLine4 16s infinite; }
+
+    @keyframes cycleLine1 {
+      0%, 3% { opacity: 0; transform: translateY(8px); }
+      6%, 22% { opacity: 1; transform: translateY(0px); }
+      25%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes cycleLine2 {
+      0%, 25% { opacity: 0; transform: translateY(8px); }
+      28%, 47% { opacity: 1; transform: translateY(0px); }
+      50%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes cycleLine3 {
+      0%, 50% { opacity: 0; transform: translateY(8px); }
+      53%, 72% { opacity: 1; transform: translateY(0px); }
+      75%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes cycleLine4 {
+      0%, 75% { opacity: 0; transform: translateY(8px); }
+      78%, 97% { opacity: 1; transform: translateY(0px); }
+      100% { opacity: 0; transform: translateY(-8px); }
+    }
+
+    /* Distant Birds */
+    .bird-flock {
+      animation: flyBirds 22s ease-in-out infinite alternate;
+    }
+    @keyframes flyBirds {
+      0% { transform: translate(0px, 0px); }
+      100% { transform: translate(-45px, -12px); }
+    }
+  </style>
+
+  <!-- 1. Painted Ghibli Sky -->
+  <rect width="1200" height="380" rx="18" fill="url(#skyGrad)" />
+
+  <!-- 2. Golden Sun & Halo -->
+  <g class="sun-halo">
+    <circle cx="1020" cy="84" r="190" fill="url(#sunGlow)" />
+    <circle cx="1020" cy="84" r="32" fill="#FFFDF5" opacity="0.92" />
+  </g>
+
+  <!-- 3. Towering Cumulus Clouds (Back Layer) -->
+  <g class="cloud-slow" opacity="0.92">
+    <!-- Left Cumulus Tower -->
+    <path d="M-20,250 Q20,180 75,195 Q95,120 165,135 Q215,90 275,130 Q335,115 365,175 Q415,180 430,240 Z" fill="url(#cloudShade)" />
+    <path d="M-10,250 Q35,195 85,205 Q105,135 170,148 Q218,105 270,142 Q325,130 350,185 Q395,190 415,245 Z" fill="url(#cloudLit)" />
+    <!-- Right Cumulus Tower -->
+    <path d="M770,245 Q805,170 865,180 Q900,105 975,125 Q1035,95 1090,145 Q1150,135 1190,195 L1220,245 Z" fill="url(#cloudShade)" />
+    <path d="M790,245 Q820,185 875,192 Q908,120 978,138 Q1032,112 1082,158 Q1135,148 1175,205 L1210,245 Z" fill="url(#cloudLit)" />
+  </g>
+
+  <!-- 4. Mid-ground Drifting Clouds -->
+  <g class="cloud-med" opacity="0.88">
+    <path d="M240,265 Q280,210 335,222 Q375,172 440,190 Q490,175 525,220 Q565,215 590,265 Z" fill="url(#cloudLit)" />
+    <path d="M640,260 Q675,205 730,215 Q775,168 835,192 Q885,185 910,255 Z" fill="url(#cloudLit)" />
+  </g>
+
+  <!-- 5. Distant Bird Flock -->
+  <g class="bird-flock" stroke="#2D5A7B" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <path d="M290,78 Q295,72 300,77 Q305,72 310,78" />
+    <path d="M318,68 Q322,63 326,67 Q330,63 334,68" />
+    <path d="M305,88 Q309,83 313,87 Q317,83 321,88" />
+    <path d="M880,64 Q885,58 890,63 Q895,58 900,64" />
+    <path d="M908,73 Q912,68 916,72 Q920,68 924,73" />
+  </g>
+
+  <!-- 6. Distant Misty Valley & Ghibli Windmill Tower -->
+  <path d="M0,295 Q140,230 310,268 Q510,220 720,265 Q940,215 1200,265 L1200,380 L0,380 Z" fill="url(#mountainDist)" opacity="0.75" />
+
+  <!-- Hilltop Windmill Silhouette -->
+  <g>
+    <polygon points="178,255 181,208 189,208 192,255" fill="#3B6958" />
+    <polygon points="176,208 185,196 194,208" fill="#B85638" />
+    <g class="windmill-blades" stroke="#FFF8E7" stroke-width="1.8">
+      <line x1="185" y1="186" x2="185" y2="238" />
+      <line x1="159" y1="212" x2="211" y2="212" />
+      <rect x="186" y="188" width="5" height="16" fill="#FFF8E7" fill-opacity="0.55" stroke="none" />
+      <rect x="179" y="220" width="5" height="16" fill="#FFF8E7" fill-opacity="0.55" stroke="none" />
+      <rect x="193" y="213" width="16" height="5" fill="#FFF8E7" fill-opacity="0.55" stroke="none" />
+      <rect x="161" y="206" width="16" height="5" fill="#FFF8E7" fill-opacity="0.55" stroke="none" />
+    </g>
+  </g>
+
+  <!-- 7. Rolling Sunlit Emerald Hills -->
+  <path d="M0,310 Q210,242 460,295 Q760,335 980,262 Q1110,240 1200,275 L1200,380 L0,380 Z" fill="url(#hillMid)" />
+
+  <!-- Foreground Lush Meadow Ridge -->
+  <path d="M0,332 Q280,285 600,330 Q920,365 1200,298 L1200,380 L0,380 Z" fill="url(#hillFront)" />
+
+  <!-- 8. Swaying Meadow Grass & Wildflowers -->
+  <g class="sway-grass-1">
+    <use href="#grassTuft" x="45" y="365" />
+    <use href="#grassTuft" x="125" y="348" />
+    <use href="#grassTuft" x="215" y="355" />
+    <use href="#grassTuft" x="310" y="362" />
+    <use href="#grassTuft" x="890" y="360" />
+    <use href="#grassTuft" x="975" y="352" />
+    <use href="#grassTuft" x="1065" y="345" />
+    <use href="#grassTuft" x="1145" y="358" />
+    <!-- Wildflowers (Poppies & Buttercups) -->
+    <circle cx="88" cy="340" r="3.5" fill="#FF6B6B" />
+    <circle cx="96" cy="346" r="2.5" fill="#FFD166" />
+    <circle cx="165" cy="336" r="3" fill="#FFFDF0" />
+    <circle cx="248" cy="344" r="3.5" fill="#FF6B6B" />
+    <circle cx="945" cy="342" r="3.5" fill="#FFD166" />
+    <circle cx="1028" cy="334" r="3.5" fill="#FF6B6B" />
+    <circle cx="1110" cy="338" r="3" fill="#FFFDF0" />
+  </g>
+
+  <g class="sway-grass-2">
+    <use href="#grassTuft" x="80" y="372" />
+    <use href="#grassTuft" x="175" y="368" />
+    <use href="#grassTuft" x="265" y="370" />
+    <use href="#grassTuft" x="930" y="372" />
+    <use href="#grassTuft" x="1020" y="366" />
+    <use href="#grassTuft" x="1115" y="370" />
+  </g>
+
+  <!-- 9. Susuwatari (Soot Sprites) & Konpeito Star Candies -->
+  <g transform="translate(105, 326)">
+    <g class="soot-hop-1">
+      <use href="#sootSprite" />
+      <use href="#konpeito" x="18" y="6" fill="#FF7EB6" />
+    </g>
+  </g>
+  <g transform="translate(152, 338) scale(0.82)">
+    <g class="soot-hop-2">
+      <use href="#sootSprite" />
+      <use href="#konpeito" x="-18" y="8" fill="#FFD166" />
+    </g>
+  </g>
+  <g transform="translate(1065, 322)">
+    <g class="soot-hop-3">
+      <use href="#sootSprite" />
+      <use href="#konpeito" x="-19" y="5" fill="#56E39F" />
+    </g>
+  </g>
+  <g transform="translate(1108, 336) scale(0.78)">
+    <g class="soot-hop-1">
+      <use href="#sootSprite" />
+      <use href="#konpeito" x="16" y="7" fill="#72DDF7" />
+    </g>
+  </g>
+
+  <!-- 10. Floating Sakura Petals & Dandelion Seeds -->
+  <g class="petal-1" transform="translate(160, 290)">
+    <ellipse cx="0" cy="0" rx="5" ry="2.6" fill="#FFB5C2" />
+  </g>
+  <g class="petal-2" transform="translate(340, 310)">
+    <circle cx="0" cy="0" r="2.2" fill="#FFFDF5" />
+    <line x1="0" y1="0" x2="-5" y2="-6" stroke="#FFFDF5" stroke-width="0.9" />
+    <line x1="0" y1="0" x2="5" y2="-6" stroke="#FFFDF5" stroke-width="0.9" />
+  </g>
+  <g class="petal-3" transform="translate(760, 300)">
+    <ellipse cx="0" cy="0" rx="4.5" ry="2.4" fill="#FFB5C2" />
+  </g>
+  <g class="petal-4" transform="translate(920, 285)">
+    <circle cx="0" cy="0" r="2.2" fill="#FFFDF5" />
+    <line x1="0" y1="0" x2="-5" y2="-6" stroke="#FFFDF5" stroke-width="0.9" />
+    <line x1="0" y1="0" x2="5" y2="-6" stroke="#FFFDF5" stroke-width="0.9" />
+  </g>
+
+  <!-- 11. Centerpiece Ghibli Parchment Nameplate -->
+  <g filter="url(#cardShadow)">
+    <rect x="235" y="48" width="730" height="238" rx="20" fill="url(#parchmentCard)" stroke="url(#goldBorder)" stroke-width="2.5" />
+    <rect x="245" y="58" width="710" height="218" rx="14" fill="none" stroke="#2D5A27" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="6 4" />
+  </g>
+
+  <!-- Botanical Corner Filigree Ornaments -->
+  <g stroke="#B87D2B" stroke-width="1.8" fill="none" opacity="0.8">
+    <path d="M255,78 C255,66 265,66 277,66" />
+    <circle cx="255" cy="78" r="2.5" fill="#2D5A27" stroke="none" />
+    <circle cx="277" cy="66" r="2.5" fill="#2D5A27" stroke="none" />
+
+    <path d="M945,78 C945,66 935,66 923,66" />
+    <circle cx="945" cy="78" r="2.5" fill="#2D5A27" stroke="none" />
+    <circle cx="923" cy="66" r="2.5" fill="#2D5A27" stroke="none" />
+
+    <path d="M255,256 C255,268 265,268 277,268" />
+    <circle cx="255" cy="256" r="2.5" fill="#2D5A27" stroke="none" />
+    <circle cx="277" cy="268" r="2.5" fill="#2D5A27" stroke="none" />
+
+    <path d="M945,256 C945,268 935,268 923,268" />
+    <circle cx="945" cy="256" r="2.5" fill="#2D5A27" stroke="none" />
+    <circle cx="923" cy="268" r="2.5" fill="#2D5A27" stroke="none" />
+  </g>
+
+  <!-- Nameplate Content -->
+  <text x="600" y="92" text-anchor="middle" class="studio-badge">✦ STUDIO OF FRONTEND ARCHITECTURE &amp; AI CRAFT ✦</text>
+
+  <text x="600" y="144" text-anchor="middle" class="title-text">Rashedul Islam Hridoy</text>
+
+  <!-- Decorative Ghibli Leaf Divider Inside Card -->
+  <g transform="translate(600, 164)">
+    <line x1="-170" y1="0" x2="-22" y2="0" stroke="#C88A36" stroke-width="1.2" opacity="0.6" />
+    <path d="M-10,0 Q-5,-6 0,0 Q5,6 10,0 Q5,-6 0,0 Q-5,6 -10,0 Z" fill="#3E7C47" />
+    <circle cx="0" cy="0" r="2.5" fill="#E5A93C" />
+    <line x1="22" y1="0" x2="170" y2="0" stroke="#C88A36" stroke-width="1.2" opacity="0.6" />
+  </g>
+
+  <text x="600" y="196" text-anchor="middle" class="subtitle-text">Software Engineer  ·  React  ·  TypeScript  ·  AI-Assisted Development</text>
+
+  <!-- Animated Ticker Pill Box -->
+  <rect x="300" y="216" width="600" height="42" rx="21" fill="#F3E6C8" fill-opacity="0.75" stroke="#D9A75A" stroke-width="1.2" />
+
+  <!-- 4-Line Cycling Ticker Text -->
+  <g>
+    <text x="600" y="242" text-anchor="middle" class="ticker-text ticker-1">🌿 3+ years building scalable React + TypeScript apps</text>
+    <text x="600" y="242" text-anchor="middle" class="ticker-text ticker-2">✨ Leading Angular → React migrations in production</text>
+    <text x="600" y="242" text-anchor="middle" class="ticker-text ticker-3">🔥 Shipping AI chat UIs that survive heavy streaming</text>
+    <text x="600" y="242" text-anchor="middle" class="ticker-text ticker-4">🧭 Turning AI agents into real engineering leverage</text>
+  </g>
+</svg>

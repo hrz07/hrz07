@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 185" width="100%" height="100%" role="img" aria-label="Ship it, then make it fast - but never ship what you wouldn't review.">
+  <defs>
+    <linearGradient id="footerSkyLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9EB" />
+      <stop offset="55%" stop-color="#FDE8BD" />
+      <stop offset="100%" stop-color="#F7C97E" />
+    </linearGradient>
+
+    <linearGradient id="footerHillMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5E9E54" />
+      <stop offset="100%" stop-color="#366B38" />
+    </linearGradient>
+
+    <linearGradient id="footerHillFront" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#27542A" />
+      <stop offset="50%" stop-color="#397036" />
+      <stop offset="100%" stop-color="#1E4524" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .quote-text {
+      font-family: 'Georgia', 'Palatino Linotype', serif;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 700;
+      fill: #2B4230;
+    }
+    .sub-sign {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11.5px;
+      font-weight: 700;
+      fill: #9C5A25;
+      letter-spacing: 2px;
+    }
+    .ember-1 { animation: riseEmber 4.5s ease-in-out infinite; }
+    .ember-2 { animation: riseEmber 5.5s ease-in-out 1.4s infinite; }
+    .ember-3 { animation: riseEmber 4.0s ease-in-out 2.5s infinite; }
+    @keyframes riseEmber {
+      0% { transform: translateY(0px) scale(1); opacity: 0.9; }
+      100% { transform: translateY(-38px) scale(0.4); opacity: 0; }
+    }
+  </style>
+
+  <!-- Golden Hour Sky Frame -->
+  <rect width="1200" height="185" rx="18" fill="url(#footerSkyLight)" />
+
+  <!-- Quote & Signature -->
+  <text x="600" y="54" text-anchor="middle" class="quote-text">“Ship it, then make it fast — but never ship what you wouldn’t review.”</text>
+  <text x="600" y="82" text-anchor="middle" class="sub-sign">✦ CRAFTED WITH GHIBLI SPIRIT · DHAKA, BANGLADESH ✦</text>
+
+  <!-- Rolling Sunset Meadow Hills -->
+  <path d="M0,132 Q240,94 520,128 Q840,156 1200,104 L1200,185 L0,185 Z" fill="url(#footerHillMid)" />
+  <path d="M0,148 Q340,122 660,146 Q960,168 1200,130 L1200,185 L0,185 Z" fill="url(#footerHillFront)" />
+
+  <!-- Rising Warm Dandelion / Hearth Sparks -->
+  <circle class="ember-1" cx="280" cy="128" r="3" fill="#FFFDF2" />
+  <circle class="ember-2" cx="600" cy="136" r="3.5" fill="#FFE58F" />
+  <circle class="ember-3" cx="920" cy="124" r="3" fill="#FFFDF2" />
+</svg>
